@@ -1,0 +1,62 @@
+/* VAMOS FALAR DE POSITION
+
+postions static (padrão)-Não aceitas valores de top, bottom, right-e left. postions fixed-fixa o elemento na tela
+
+postion: sticky age como um adesive, fixa o elemente só ende eu determinar
+
+postion: relative posição relativa a posição inicial dele
+
+postion: absolute-posição absoluta(a) a algun elemento ou a pagina -SE não tiver pal/pal for static Posiciona referente a pagina -Se o pai NÃO for static Posiciona referente ao pal
+
+propriedades:
+
+top
+
+bottom
+
+left
+
+right
+
+*/
+
+* { 
+
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    height: 200vh; 
+    width: 200vw;
+
+}
+
+
+.div-dad {
+
+    height: 350px;
+    width: 350px;
+    background-color: #ff1396;
+    position:fixed;
+    top: 100px;
+    left: 100px;
+    opacity: 0.5;
+    bottom: 0px;
+  
+
+}
+
+.div-son {
+  
+    height: 150px;
+    width: 150px; 
+    background-color: #ffff00;
+    
+} 
+
+.tanananan {
+    
+    background: #ff0000;
+    height: 100px;
+    width: 100px;
+ 
+}
